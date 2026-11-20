@@ -4,6 +4,8 @@
 **Instituição:** UniSENAI — Análise e Desenvolvimento de Sistemas  
 **Professor Orientador:** Prof. MSc. Hugo Menezes Barra e Prof. Rodrigo Losina  
 **Empresa Parceira:** Schulz S.A.  
+**Repositório GitHub:** https://github.com/ValtairWerlich/projeto-aplicado-schulz
+
 
 **Equipe de Desenvolvimento:**
 * Daniel Victor Sampaio Siqueira
@@ -148,3 +150,5 @@ A execução da classe `Main.java` valida ponta a ponta o fluxo operacional do s
    * *Certificado `CERT-2026-002`*: Valor nominal `25.000 mm` ($\pm 0.010\text{ mm}$), leitura `25.024 mm` $\rightarrow$ Erro calculado `+0.0240 mm` $\rightarrow$ Status **`REPROVADO`**.
 4. **Retificação de Leitura (`UPDATE`):** O certificado `CERT-2026-003` (inicialmente `REPROVADO` com `120.045 mm`) recebe nova leitura de `119.992 mm` via `setVlrObtido()`, recalculando o erro para `-0.0080 mm` e atualizando o banco para **`APROVADO`**.
 5. **Rastreabilidade (`SELECT` com `INNER JOIN`):** Cruzamento das três tabelas para exibição do relatório final consolidado no terminal.
+### Evidência de Execução no Terminal
+![Execução do MVP no Terminal](execucao_terminal.png)
